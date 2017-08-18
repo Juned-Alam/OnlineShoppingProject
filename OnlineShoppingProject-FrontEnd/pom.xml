@@ -9,6 +9,7 @@
   <url>http://maven.apache.org</url>
   <properties>
       <javaee.version>7.0</javaee.version>
+      <spring.version>4.3.6.RELEASE</spring.version>
   </properties>
   <dependencies>
     <dependency>
@@ -25,7 +26,15 @@
     <version>${javaee.version}</version>
     <scope>provided</scope>
 </dependency>
-    
+<!-- Spring-->
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>${spring.version}</version>
+</dependency>
+
+            
   </dependencies>
   <build>
   <plugins>
@@ -41,3 +50,4 @@
     <finalName>OnlineShoppingProject-FrontEnd</finalName>
   </build>
 </project>
+              
