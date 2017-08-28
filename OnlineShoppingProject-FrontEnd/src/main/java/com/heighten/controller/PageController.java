@@ -9,11 +9,11 @@ public class PageController {
 	@RequestMapping(value= {"/","/index","/home"})
 	public ModelAndView index()
 	{
-		ModelAndView mv=new ModelAndView("page");
+	 	ModelAndView mv=new ModelAndView("page");
 		mv.addObject("greeting","Welcome To Online Shopping Project");
 	return mv;
-	}
-
-	
-
+	}   
+      
+	      
+    
 }
