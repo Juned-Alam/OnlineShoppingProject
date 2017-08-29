@@ -12,7 +12,7 @@ public class PageController {
 	 	ModelAndView mv=new ModelAndView("page");
 		mv.addObject("greeting","Welcome To Online Shopping Project");
 	return mv;
-	}   
+	}      
       
 	      
     
