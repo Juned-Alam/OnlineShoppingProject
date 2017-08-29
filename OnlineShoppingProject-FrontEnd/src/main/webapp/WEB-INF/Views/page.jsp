@@ -52,10 +52,9 @@
         </div>
       </div>
     </nav>
-    ${css}
-    ${js}
     
-    <!-- Page Content -->
+    
+   <!-- Page Content -->
     <div class="container">
 
       <div class="row">
@@ -223,6 +222,11 @@
     <script src="${js}/jquery.js"></script>
     <script src="${js}/popper.min.js"></script>
     <script src="${js}/bootstrap.min.js"></script>
+    
+    ${js}
+    ${css}
+    
+    
 
   </body>
 
