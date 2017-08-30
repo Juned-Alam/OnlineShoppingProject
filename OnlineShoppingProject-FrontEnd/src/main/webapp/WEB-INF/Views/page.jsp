@@ -7,7 +7,7 @@
 <html lang="en">  
   
   <head>  
-
+             
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -219,7 +219,7 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="${js}/jquery.js"></script>
+    <script src="${js}/jquery.min.js"></script>
     <script src="${js}/popper.min.js"></script>
     <script src="${js}/bootstrap.min.js"></script>
     
